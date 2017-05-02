@@ -2,5 +2,5 @@
 
 (b/build "src"
          {:main 'app.core
-          :output-to "main.js"
+          :output-to "build/main.js"
           :optimizations :advanced})
